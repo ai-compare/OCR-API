@@ -7,3 +7,4 @@ AI-Compare offers 5000 free credits when you [create your account for free](http
 
 You can find APIs documentation here : https://documenter.getpostman.com/view/10011301/SzmiVFqh?version=latest
 
+![alt text](https://github.com/[ai-compare]/[OCR-API]/[master]/Ai-compare_new.jpg?raw=true)
