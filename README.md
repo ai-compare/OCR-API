@@ -1,4 +1,4 @@
-# OCR-API
+# OCR - AI-Compare API
 ## Description
 This repositery provides code to implement [AI-Compare OCR API](https://www.ai-compare.com/vision_apis/ocr). [AI-Compare OCR API](https://www.ai-compare.com/vision_apis/ocr) allows to call OCR APIs from Google Cloud Platform Cloud Vision, AWS Textract, Microsoft Azure Computer Vision OCR, and OCR Space. It permits to get results from these providers and compare the results.
 
