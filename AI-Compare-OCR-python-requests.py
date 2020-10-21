@@ -1,15 +1,15 @@
 import requests
 
-# You can find the documentation here : https://documenter.getpostman.com/view/10011301/SzmiVFqh?version=latest#971d5367-728e-49b0-954f-8debec142cf7
+# You can find the documentation here : https://www.ai-compare.com/v1/redoc/#operation/OCR
 
 #Enter your API Token
-headers = {  'x-access-token': 'Enter your API Key'} #You can get your free API token here https://www.ai-compare.com/accounts/login/?next=/my_apis
+headers = {  'Authorization': 'Bearer your API Key'} #You can get your free API token here https://www.ai-compare.com/accounts/login/?next=/my_apis
 
 # Select API
-url = 'https://www.ai-compare.com/api/v1/vision/create/compare/ocr'
+url = 'https://www.ai-compare.com/v1/pretrained/vision/ocr'
 
 # Select providers, and text to detect
-payload = {'providers': '[\'ocr_space\', \'cognitives_service\', \'aws\']','text_reference': '','language': 'French'}
+payload = {'providers': '[\'ocr_space\', \'cognitives_service\', \'aws\', \'google_cloud\']','text_reference': '','language': 'French'}
 
 # Select file to test
 files = [  ('files', open('Picture/example.jpg','rb'))]
