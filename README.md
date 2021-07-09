@@ -20,7 +20,7 @@ url = 'https://dev-api.edenai.run/v1/pretrained/vision/ocr'
 ### Select parameters 
 Set your file (.jpg, .png, .jpeg, .pdf, .tiff), the language of the text searched, the attempted text, and providers APIs you want to run :
 ```python
-payload = {'providers': '[\'ocr_space\', \'cognitives_service\', \'aws\', \'google_cloud\']','text_reference': '','language': 'French'}
+payload = {'providers': '[\'ocr_space\', \'microsoft\', \'aws\', \'google_cloud\']','text_reference': '','language': 'French'}
 files = [  ('files', open('Picture/example.jpg','rb'))]
 ```
 ### Get results
